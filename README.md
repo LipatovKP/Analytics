@@ -15,3 +15,14 @@
 * **Pandas**: Обработка и фильтрация данных.
 * **Plotly Express**: Создание интерактивных графиков.
 * **Dash**: Веб-фреймворк для интерфейса.
+
+# Создайте и активируйте виртуальное окружение
+## Bash
+python -m venv .venv
+source .venv/Scripts/activate  # Для Windows
+
+## Установите зависимости:
+pip install pandas plotly dash
+
+## Запустите приложение:
+python main.py
